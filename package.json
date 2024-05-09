@@ -1,0 +1,31 @@
+{
+  "name": "book-record-management-build-part-2",
+  "version": "1.0.0",
+  "description": "\"# Book-Record-Management-Build-Part-2\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/bjmanish/Book-Record-Management-Build-Part-2.git)"
+  },
+  "keywords": [
+    "\"base",
+    "on",
+    "MongoDatabase\""
+  ],
+  "author": "Manish",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "mongodb": "6.5",
+    "mongoose": "^8.3.4"
+  }
+}
