@@ -82,3 +82,19 @@ Foreign Key
 
 Users Table                   Books Table
 >>issuedBooks: 2(Foreign key)   issuedBooks: 2 (Primary Key)
+
+## Data Transfer Object (DTO) 
+>> Transfering the data to one object to another object
+ var obj1:{
+      name
+      age
+      id
+      gender
+ }
+      
+ var obj2:{
+        name 
+        age
+        id
+        gender
+ }

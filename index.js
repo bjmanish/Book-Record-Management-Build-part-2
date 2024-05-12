@@ -2,10 +2,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 
 const dotenv = require("dotenv");
-const DBConnection = require("./dbConnection");
-
-const {users} = require("./data/users.json");
-const {books} = require("./data/books.json");
+const DBConnection = require("./DBConnection/dbConnection");
 
 const userRouter = require("./routes/users");
 const bookRouter = require("./routes/books");
