@@ -4,8 +4,7 @@ const {
     getUserById,
     createNewUser,  
     updateUserData, 
-    deleteUser,   
-    getSubcriptionDetailsById,  
+    deleteUser,    
 } = require("../controllers/user-controller");
 
 const router = express.Router();
@@ -60,14 +59,5 @@ router.put("/updateBook/:id", updateUserData);
 * Parameters: ID
 */
 router.delete("/:id", deleteUser);
-
-/*
-* Route:  /users/subscription-details/{id}
-*Methods : GET
-*Description: get all user subscription details
-* Parameters: ID
-*/
-
-router.get("/subscription-details/:id",getSubcriptionDetailsById);
 
 module.exports = router;
